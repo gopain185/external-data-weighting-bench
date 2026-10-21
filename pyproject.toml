@@ -1,0 +1,10 @@
+[project]
+name = "external-data-weighting-bench"
+version = "0.1.0"
+description = "Known-truth simulation of how much weight a shifted external training pool should get, and how to choose it"
+requires-python = ">=3.10"
+dependencies = ["numpy", "scipy", "pandas"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
