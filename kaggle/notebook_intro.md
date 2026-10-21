@@ -18,5 +18,5 @@ It measures:
    pool model);
 3. what a skewed class prior or wrong labels in the pool change, with class-balanced and raw pool weights.
 
-Everything runs on CPU in about 20 to 30 minutes. The package source is embedded in the next cell, so the notebook
+Everything runs on CPU: about an hour on a Kaggle CPU session, about 20 minutes on a recent laptop. The package source is embedded in the next cell, so the notebook
 is self-contained.
